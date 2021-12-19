@@ -1,5 +1,14 @@
+/*body {
+    background-image: radial-gradient(circle, #806a61, #753f29, #593526);
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+}*/
+
 body {
-    background-color: #3b3b3b;
+    background-image: url("aback10.jpg");
     color: white;
     font-family: "Lucida Console";
     font-size: 14px;
@@ -7,11 +16,19 @@ body {
     padding: 0;
 }
 
+/*body {
+    background-color: #450000;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+}*/
 #header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #d3ff63;
+    background: #fff;
     height: 0.8em;
     font-size: 1em;
     padding-top: 0.2em;
@@ -19,7 +36,7 @@ body {
 
 #headtext {
     color: #4e5250;
-    background: #c7fc3f;
+    background: #fff;
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
@@ -49,7 +66,7 @@ h3, p {
 
 
 #program {
-    width: 50%;
+    width: 600px;
     text-align: center;
     margin: auto;
     background: repeating-linear-gradient( 45deg, #786b66, #786b66 10px, #6e6967 10px, #6e6967 20px );
@@ -114,7 +131,7 @@ audio {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #c7fc3f;
+    background: #fff;
     padding-top: 0.2em;
 }
 
