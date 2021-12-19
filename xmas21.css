@@ -8,6 +8,9 @@ body {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: #d3ff63;
     height: 0.8em;
     font-size: 1em;
@@ -16,7 +19,7 @@ body {
 
 #headtext {
     color: #4e5250;
-    background: #d3ff63;
+    background: #c7fc3f;
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
@@ -104,4 +107,24 @@ audio {
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
+}
+
+#bottom {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #c7fc3f;
+    padding-top: 0.2em;
+}
+
+#copylink {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: #86baa8;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 16px;
 }
