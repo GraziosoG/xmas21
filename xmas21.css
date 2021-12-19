@@ -1,0 +1,107 @@
+body {
+    background-color: #3b3b3b;
+    color: white;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header {
+    background: #d3ff63;
+    height: 0.8em;
+    font-size: 1em;
+    padding-top: 0.2em;
+}
+
+#headtext {
+    color: #4e5250;
+    background: #d3ff63;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.color-red {
+    color: #9c0000;
+}
+
+.color-green {
+    color: #27ba34;
+    /*#417846;*/
+}
+
+#greeting {
+    margin-top: 30px;
+}
+
+.pgreet{
+    font-size: 18px;
+}
+
+h3, p {
+    text-align: center;
+}
+
+
+#program {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background: repeating-linear-gradient( 45deg, #786b66, #786b66 10px, #6e6967 10px, #6e6967 20px );
+    padding: 5px;
+}
+
+
+a {
+    color: #86baa8;
+}
+
+.songs {
+    width: 500px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: dashed;
+}
+
+.bc-red {
+    border-color: #f24141;
+}
+
+.bc-green {
+    border-color: #0dd94a;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.year {
+    font-size: 16px;
+}
+
+audio {
+    margin-top: 5px;
+    height: 30px;
+}
+
+#programBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
