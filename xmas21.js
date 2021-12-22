@@ -21,3 +21,9 @@ for (var i = 0, len = audios.length; i < len; i++) {
     }
 }
 }, true);
+
+function listenAllFunction() {
+    var audios = document.getElementsByTagName('audio');
+    for (i = 0; i < audios.length; i++) { audios[i].pause() };
+    document.getElementById('allsongs').play();
+}

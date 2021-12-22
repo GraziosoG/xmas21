@@ -135,7 +135,7 @@ audio {
     padding-top: 0.2em;
 }
 
-#copylink {
+#listenall, #copylink {
     background: none !important;
     border: none;
     padding: 0 !important;

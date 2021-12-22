@@ -42,7 +42,9 @@
 		<p style="font-size:18px;">節目單</p>
 		<p style="font-size:14px">點選下列歌曲直接聽音樂！</p>
 		<a href="#dth">Deck the Halls 裝飾大廳 1862</a><br />
-		<a href="#ww">Winder Wonderland 冬季仙境 1934</a><br />
+		<a href="#ww">Winter Wonderland 冬季仙境 1934</a><br />
+		<a href="#wc">White Christmas 白色聖誕 1942</a><br />
+		<a href="#lis">Let It Snow 下雪吧 1945</a><br />
 		<a href="#hcsc">Here Comes Santa Claus 聖誕老公公來了 1947</a><br />
 		<a href="#sr">Sleigh Ride 雪橇行 1948</a><br />
 		<a href="#jbr">Jingle Bell Rock 鈴聲響 1957</a><br />
@@ -52,6 +54,7 @@
 		<a href="#fn">Feliz Navidad 聖誕快樂 1970</a><br />
 		<a href="#stm">Santa Tell Me 聖誕好公公告訴我 2014</a><br />
 		<a href="#mah">Merry & Happy 快樂和快樂 2017</a><br />
+		<br />
 	</div>
 
 	<br /><br />
@@ -73,7 +76,7 @@
 	</div>
 
 	<div class="songs bc-green" id="ww">
-		<p class="title">Winder Wonderland</p>
+		<p class="title">Winter Wonderland</p>
 		<p class="title">冬季仙境</p>
 		<p class="year">1934</p>
 		<p>
@@ -83,6 +86,39 @@
 		<p>
 			<audio controls>
 				<source src="Winter-Wonderland.m4a" type="audio/mp4">
+				你的瀏覽器不支持撥放音樂。
+			</audio>
+		</p>
+	</div>
+
+	<div class="songs bc-red" id="wc">
+		<p class="title">White Christmas</p>
+		<p class="title">白色聖誕</p>
+		<p class="year">1942</p>
+		<p>
+			這首歌比較不一樣，節奏比較抒情，沒有聖誕鈴噹響噹噹的元素，但也十分受歡迎。
+			在這裡，我想引用歌詞，祝大家「May your days be merry and bright and may all your Christmases be white」，祝福你的日子充滿歡樂與光明和你的每個聖誕節都純潔雪白。
+		</p>
+		<p>
+			<audio controls>
+				<source src="White-Christmas.m4a" type="audio/mp4">
+				你的瀏覽器不支持撥放音樂。
+			</audio>
+		</p>
+	</div>
+
+	<div class="songs bc-green" id="lis">
+		<p class="title">Let It Snow</p>
+		<p class="title">下雪吧</p>
+		<p class="year">1945</p>
+		<p>
+			開頭的歌詞有一個有趣的對比。<br />歌詞為<span style="color:#ffea4f;">Oh the weather outside is <b>frightful</b> <br />But the fire is <b>so delightful</b></span>,
+			<br />而翻譯為：噢外面的天氣很可怕 <br />但是這裡的爐火真迷人可愛。
+			<br />這兩個字也很像，是個作家的小巧思呢！
+		</p>
+		<p>
+			<audio controls>
+				<source src="Let-it-Snow.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -256,10 +292,24 @@
 	</div>
 
 	<div>
-		<h3>萬分感謝您的捧場！<br />想聽所有的鋼琴音樂，<a href="">點我</a>！<br />想回到節目單聆聽指定曲目，<a href="#program">點我</a>！<br />點我想要複製網址，<button id="copylink" onclick="copyToClipboard()">點我</button>！</h3>
+		<h3>萬分感謝您的捧場！<br />想聽所有的鋼琴音樂，<button  id="listenall" onclick="listenAllFunction()">點我</button>！<br />想回到節目單聆聽指定曲目，<a href="#program">點我</a>！<br />點我想要複製網址來分享，<button id="copylink" onclick="copyToClipboard()">點我</button>！</h3>
 	</div>
 
-	<br /><br /><br />
+	<br />
+
+	<p class="title" id="all">Christmas Songs Collection Piano</p>
+	<p class="title">聖誕佳音全集 鋼琴版</p>
+	<p>
+		<audio controls id="allsongs">
+			<source src="xmas-all.mp3" type="audio/mp3">
+			你的瀏覽器不支持撥放音樂。
+		</audio>
+	</p>
+	<p>
+		<a href="./xmas-all.mp3" download="piano-christmas-songs">下載MP3檔，我要隨時聽！</a>
+	</p>
+
+	<br /><br /><br /><br />
 
 	<div id="bottom">
 		<div id="headtext">
