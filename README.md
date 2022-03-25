@@ -1,5 +1,5 @@
 # xmas21
-You can find the Christmas music song covers that I recorded to celebrate Christmas 2021 here, and some fun facts with these songs! 
+Merry Christmas! Listen to Christmas music song covers that I recorded to celebrate Christmas 2021 here, and some fun facts with these songs in Mandarin! 
 
-View more description and images on the [here](https://graziosog.github.io/xmas21/xmas21.html).
+View the page and enjoy the music [here](https://graziosog.github.io/xmas21/xmas21.html).
 
