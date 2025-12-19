@@ -8,39 +8,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="xmas21.css" rel="stylesheet">
 	<script src="xmas21.js" charset="big-5" defer></script>
-	<script>
-		function copyToClipboard(text) {
-			var inputc = document.body.appendChild(document.createElement("input"));
-			inputc.value = window.location.href;
-			inputc.focus();
-			inputc.select();
-			document.execCommand('copy');
-			inputc.parentNode.removeChild(inputc);
-			alert("已複製網址！等待貼上。");
-		}
-	</script>
 </head>
-
-
 
 <body>
 	<button onclick="window.location.href='#program'" id="programBtn" title="Go to top">節目單</button>
 
-	<div id="header">
+	<!-- <div id="header">
 		<div id="headtext">
 			Merry Christmas <span class="color-red">Merry Christmas</span> Merry Christmas <span class="color-red">Merry Christmas</span> Merry Christmas <span class="color-red">Merry Christmas</span> Merry Christmas
 		</div>
-	</div>
+	</div> -->
 
 	<div id="greeting">
-		<p class="pgreet"><b>2021<span class="color-green">聖誕</span>節快樂！<span style="color:#f52c47;">Merry Christmas!</span></b></p>
-		<p class="pgreet">今年的<span class="color-green">聖誕</span>節想用一個很<u>特別</u>的方式來獻上我所錄製的<span class="color-green">聖誕</span>佳音！</p>
-		<p class="pgreet">先謝謝大家的捧場，請大家豎起耳朵，享受這個美好的<span class="color-green">聖誕</span>氣氛！</p>
+		<p><span class="color-darker-green">聖誕節快樂！</span><span class="color-red">Merry Christmas!</span></p>
+		<p>在溫暖的<span class="color-darker-green">聖誕節</span>獻上我錄製的<span class="color-darker-green">聖誕音樂</span>！</p>
+		<p>謝謝大家的捧場，請大家豎起耳朵，享受這個美妙的<span class="color-darker-green">聖誕氣氛</span>！</p>
 	</div>
 
 	<div id="program">
-		<p style="font-size:18px;">節目單</p>
-		<p style="font-size:14px">點選下列歌曲直接聽音樂！</p>
+		<p style="font-size:18px;"><b>節目單</b></p>
+		<p style="font-size:14px">快速移動到下列歌曲直接聽音樂！</p>
 		<a href="#dth">Deck the Halls 裝飾大廳 1862</a><br />
 		<a href="#ww">Winter Wonderland 冬季仙境 1934</a><br />
 		<a href="#wc">White Christmas 白色聖誕 1942</a><br />
@@ -69,7 +56,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="Deck-the-Halls.m4a" type="audio/mp4">
+				<source src="media/Deck-the-Halls.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -81,11 +68,11 @@
 		<p class="year">1934</p>
 		<p>
 			相信這首歌也很受歡迎。其中的歌詞Snow is <b>glistening</b>，其翻譯是積雪在「閃耀」。
-			動詞<span style="color:#ffea4f;">glisten</span>類似星星<span style="color:#ffea4f;">閃爍的twinkle</span>，但是glisten特別指濕濕的表面而反射出的閃爍光芒。
+			<br />動詞<span style="color:#ffea4f;">glisten</span>類似星星<span style="color:#ffea4f;">閃爍的twinkle</span>，但是glisten特別指濕濕的表面而反射出的閃爍光芒。
 		</p>
 		<p>
 			<audio controls>
-				<source src="Winter-Wonderland.m4a" type="audio/mp4">
+				<source src="media/Winter-Wonderland.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -97,11 +84,11 @@
 		<p class="year">1942</p>
 		<p>
 			這首歌比較不一樣，節奏比較抒情，沒有聖誕鈴噹響噹噹的元素，但也十分受歡迎。
-			在這裡，我想引用歌詞，祝大家「May your days be merry and bright and may all your Christmases be white」，祝福你的日子充滿歡樂與光明和你的每個聖誕節都純潔雪白。
+			<br />在這裡，我想引用歌詞，祝大家「May your days be merry and bright and may all your Christmases be white」，祝福你的日子充滿歡樂與光明和你的每個聖誕節都純潔雪白。
 		</p>
 		<p>
 			<audio controls>
-				<source src="White-Christmas.m4a" type="audio/mp4">
+				<source src="media/White-Christmas.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -113,12 +100,12 @@
 		<p class="year">1945</p>
 		<p>
 			開頭的歌詞有一個有趣的對比。<br />歌詞為<span style="color:#ffea4f;">Oh the weather outside is <b>frightful</b> <br />But the fire is <b>so delightful</b></span>,
-			<br />而翻譯為：噢外面的天氣很可怕 <br />但是這裡的爐火真迷人可愛。
+			<br />而翻譯為：噢外面的天氣很可怕 <br />但是這裡的生火令人很喜悅。
 			<br />這兩個字也很像，是個作家的小巧思呢！
 		</p>
 		<p>
 			<audio controls>
-				<source src="Let-it-Snow.m4a" type="audio/mp4">
+				<source src="media/Let-it-Snow.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -129,12 +116,12 @@
 		<p class="title">聖誕老公公來了</p>
 		<p class="year">1947</p>
 		<p>
-			其中有提到兩隻聖誕老公公的馴鹿<b>Vixen和Blitzen</b>，而Blitzen的荷蘭語指的是閃電。另外七支馴鹿為Dasher、Dancer、Prancer、 Comet、Cupid、Donner和Rudolph。
+			其中有提到兩隻聖誕老公公的馴鹿<b>Vixen和Blitzen</b>，而Blitzen的荷蘭語指的是閃電。<br />另外七支馴鹿為Dasher、Dancer、Prancer、 Comet、Cupid、Donner和Rudolph。
 			<br />Donner則是相近於荷蘭語的Donder和Dunder，指的是打雷。
 		</p>
 		<p>
 			<audio controls>
-				<source src="Here-Comes-Santa-Claus.m4a" type="audio/mp4">
+				<source src="media/Here-Comes-Santa-Claus.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -151,7 +138,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="Sleigh-Ride.m4a" type="audio/mp4">
+				<source src="media/Sleigh-Ride.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -166,7 +153,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="Jingle-Bell-Rock.m4a" type="audio/mp4">
+				<source src="media/Jingle-Bell-Rock.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -177,13 +164,13 @@
 		<p class="title">圍著聖誕樹一起搖滾</p>
 		<p class="year">1958</p>
 		<p>
-			這首歌的節奏律動感很強，旋律也很好聽。歌詞提到「Mistletoe hung where you can see Every couple tries to stop」，而這有關一個英國人的聖誕傳統習俗。傳說站在槲寄生枝條下的人不能拒絕親吻，<br />
+			這首歌的節奏律動感很強，旋律也很好聽。歌詞提到「Mistletoe hung where you can see Every couple tries to stop」，而這有關一個英國人的聖誕傳統習俗。<br />傳說站在槲寄生枝條下的人不能拒絕親吻，<br />
 			而在槲寄生枝條下接吻的情侶將會幸福終生。<br />
 			這就是為什麼歌詞說情侶不想錯過每一個槲寄生枝條。
 		</p>
 		<p>
 			<audio controls>
-				<source src="Rocking-Around-the-Christmas-Tree.m4a" type="audio/mp4">
+				<source src="media/Rocking-Around-the-Christmas-Tree.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -200,7 +187,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="It’s-the-Most-Wonderful-Ttime-of-the-Year.m4a" type="audio/mp4">
+				<source src="media/The-Most-Wonderful-Time-of-the-Year.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -218,7 +205,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="A-Holly-Jolly-Christmas.m4a" type="audio/mp4">
+				<source src="media/A-Holly-Jolly-Christmas.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -234,7 +221,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="Feliz-Navidad.m4a" type="audio/mp4">
+				<source src="media/Feliz-Navidad.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -249,7 +236,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="Santa-Tell-Me.m4a" type="audio/mp4">
+				<source src="media/Santa-Tell-Me.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -264,7 +251,7 @@
 		</p>
 		<p>
 			<audio controls>
-				<source src="Merry-and-Happy.m4a" type="audio/mp4">
+				<source src="media/Merry-and-Happy.m4a" type="audio/mp4">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
@@ -277,45 +264,53 @@
 		</p>
 		<p>
 			Here Comes Santa Claus 鋼琴和長笛
+		</p>
+		<p>
 			<audio controls>
-				<source src="Here-comes-Santa-Claus-pf.mp3" type="audio/mp3">
+				<source src="media/Here-comes-Santa-Claus-pf.mp3" type="audio/mp3">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
 		<p>
 			Here Comes Santa Claus 鋼琴、長笛和唱歌
+		</p>
+		<p>
 			<audio controls>
-				<source src="Here-Comes-Santa-Claus-all.mp3" type="audio/mp3">
+				<source src="media/Here-Comes-Santa-Claus-all.mp3" type="audio/mp3">
 				你的瀏覽器不支持撥放音樂。
 			</audio>
 		</p>
 	</div>
 
 	<div>
-		<h3>萬分感謝您的捧場！<br />想聽所有的鋼琴音樂，<button  id="listenall" onclick="listenAllFunction()">點我</button>！<br />想回到節目單聆聽指定曲目，<a href="#program">點我</a>！<br />點我想要複製網址來分享，<button id="copylink" onclick="copyToClipboard()">點我</button>！</h3>
+		<h3>萬分感謝您的捧場！<br />
+			想回到節目單聆聽指定曲目，<a href="#program">點我</a>！<br />
+			想要複製網址來分享，<button id="copylink" onclick="copyToClipboard()">點我</button>！<br />
+			想要撥放下方的所有鋼琴音樂，<button  id="listenall" onclick="listenAllFunction()">點我</button>！
+		</h3>
 	</div>
 
 	<br />
 
 	<p class="title" id="all">Christmas Songs Collection Piano</p>
-	<p class="title">聖誕佳音全集 鋼琴版</p>
+	<p class="title">聖誕專集 鋼琴版</p>
 	<p>
 		<audio controls id="allsongs">
-			<source src="xmas-all-2021.m4a" type="audio/mp4">
+			<source src="media/xmas-all-2021.m4a" type="audio/mp4">
 			你的瀏覽器不支持撥放音樂。
 		</audio>
 	</p>
-	<p>
-		<a href="./xmas-all-2021.m4a" download="piano-christmas-songs">下載MP3檔，我要隨時聽！</a>
+	<p style="font-size:18px;">
+		<a href="./xmas-all-2021.m4a" download="piano-christmas-songs">下載影音檔，我要隨時聽！</a>
 	</p>
 
-	<br /><br /><br /><br />
+	<br /><br />
 
-	<div id="bottom">
+	<!-- <div id="bottom">
 		<div id="headtext">
 			Merry Christmas <span class="color-red">Merry Christmas</span> Merry Christmas <span class="color-red">Merry Christmas</span> Merry Christmas <span class="color-red">Merry Christmas</span> Merry Christmas
 		</div>
-	</div>
+	</div> -->
 
 </body>
 

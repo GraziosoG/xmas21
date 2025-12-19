@@ -1,30 +1,13 @@
-/*body {
-    background-image: radial-gradient(circle, #806a61, #753f29, #593526);
-    color: white;
-    font-family: "Lucida Console";
-    font-size: 14px;
-    margin: 0 auto;
-    padding: 0;
-}*/
-
 body {
-    background-image: url("aback10.jpg");
-    color: white;
+    background-color: #F8E4B7;
+    color: #393C28;
     font-family: "Lucida Console";
     font-size: 14px;
     margin: 0 auto;
     padding: 0;
 }
 
-/*body {
-    background-color: #450000;
-    color: white;
-    font-family: "Lucida Console";
-    font-size: 14px;
-    margin: 0 auto;
-    padding: 0;
-}*/
-#header {
+/* #header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -41,24 +24,26 @@ body {
     font-weight: bold;
     text-align: center;
     font-style: italic;
-}
+} */
 
 .color-red {
-    color: #9c0000;
+    color: #AA3A3A;
 }
 
 .color-green {
-    color: #27ba34;
-    /*#417846;*/
+    color: #A4B787;
+}
+
+.color-darker-green {
+    color: #498c4f;
 }
 
 #greeting {
     margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.pgreet{
-    font-size: 18px;
-}
 
 h3, p {
     text-align: center;
@@ -66,34 +51,42 @@ h3, p {
 
 
 #program {
-    width: 600px;
+    width: 60%;
     text-align: center;
     margin: auto;
-    background: repeating-linear-gradient( 45deg, #786b66, #786b66 10px, #6e6967 10px, #6e6967 20px );
+    background: #F4F4F4;
     padding: 5px;
+    border-radius: 50px;
 }
 
 
 a {
-    color: #86baa8;
+    color: #59150E;
 }
 
 .songs {
-    width: 500px;
+    width: 45%;
     padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: auto;
     margin-bottom: 30px;
-    border: dashed;
+    border: none;
+    border-radius: 50px;
+}
+
+@media all and (max-width: 767px) {
+    .songs {
+      width: 80%; /* Overrides the desktop width on mobile */
+    }
 }
 
 .bc-red {
-    border-color: #f24141;
+    background-color: #AA3A4A ;
+    color: #F4F4F4; 
 }
 
 .bc-green {
-    border-color: #0dd94a;
+    background-color: #A4B787;
+    color: #393C28; 
 }
 
 .title {
@@ -108,6 +101,7 @@ a {
 audio {
     margin-top: 5px;
     height: 30px;
+    width: 75%;
 }
 
 #programBtn {
@@ -126,20 +120,20 @@ audio {
     border-radius: 4px;
 }
 
-#bottom {
+/* #bottom {
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #fff;
+    background: #F4F4F4;
     padding-top: 0.2em;
-}
+} */
 
 #listenall, #copylink {
     background: none !important;
     border: none;
     padding: 0 !important;
-    color: #86baa8;
+    color: #59150E;
     text-decoration: underline;
     cursor: pointer;
     font-weight:bold;
