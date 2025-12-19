@@ -1,14 +1,14 @@
-/* :root {
+:root {
     --primary-bg-color: #E6DBCA;
     --primary-red: #B4635E;
     --primary-green: #727159;
     --primary-white: #F4F4F4;
     --primary-green-text: #393C28;
-    --primary-green-text-xmas: #498c4f;
+    --primary-coral: #C79381;
     --primary-hyperlink: #59150E;
-} */
+}
 
-:root {
+/* :root {
     --primary-bg-color: #F8E4B7;
     --primary-red: #AA3A3A;
     --primary-green: #A4B787;
@@ -16,7 +16,7 @@
     --primary-green-text: #393C28;
     --primary-green-text-xmas: #498c4f;
     --primary-hyperlink: #59150E;
-}
+} */
 
 body {
     background-color: var(--primary-bg-color);
@@ -54,10 +54,6 @@ body {
     color: var(--primary-green);
 }
 
-.color-darker-green {
-    color: var(--primary-green-text-xmas);
-}
-
 #greeting {
     margin-top: 30px;
     font-size: 20px;
@@ -77,8 +73,10 @@ h3, p {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: var(--primary-white);
-    color: var(--primary-green-text);
+    /* background-color: var(--primary-white); */
+    /* color: var(--primary-green-text); */
+    background-image: linear-gradient(45deg, #b4635e 25%, #727159 25%, #727159 50%, #b4635e 50%, #b4635e 75%, #727159 75%, #727159 100%);
+    color: var(--primary-white);
     cursor: pointer;
     padding: 10px;
     border-radius: 20%;
@@ -154,7 +152,7 @@ a {
 
 .bc-green {
     background-color: var(--primary-green);
-    color: var(--primary-green-text);
+    color: var(--primary-white);
 }
 
 .title {
