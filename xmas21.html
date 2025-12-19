@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<button onclick="window.location.href='#program'" id="programBtn" title="Go to top">節目單</button>
+	<button onclick="showPopup()" id="program-btn">節目單</button>
 
 	<!-- <div id="header">
 		<div id="headtext">
@@ -25,23 +25,26 @@
 		<p>謝謝大家的捧場，請大家豎起耳朵，享受這個美妙的<span class="color-darker-green">聖誕氣氛</span>！</p>
 	</div>
 
-	<div id="program">
-		<p style="font-size:18px;"><b>節目單</b></p>
-		<p style="font-size:14px">快速移動到下列歌曲直接聽音樂！</p>
-		<a href="#dth">Deck the Halls 裝飾大廳 1862</a><br />
-		<a href="#ww">Winter Wonderland 冬季仙境 1934</a><br />
-		<a href="#wc">White Christmas 白色聖誕 1942</a><br />
-		<a href="#lis">Let It Snow 下雪吧 1945</a><br />
-		<a href="#hcsc">Here Comes Santa Claus 聖誕老公公來了 1947</a><br />
-		<a href="#sr">Sleigh Ride 雪橇行 1948</a><br />
-		<a href="#jbr">Jingle Bell Rock 鈴聲響 1957</a><br />
-		<a href="#ratct">Rockin' Around the Christmas Tree 圍著聖誕樹一起搖滾 1958</a><br />
-		<a href="#itmwtoty">It's the Most Wonderful Time of the Year 這是一年中最美妙的時光 1963</a><br />
-		<a href="#ahjc">A Holly Jolly Christmas 一個冬青快樂的聖誕節 1964</a><br />
-		<a href="#fn">Feliz Navidad 聖誕快樂 1970</a><br />
-		<a href="#stm">Santa Tell Me 聖誕好公公告訴我 2014</a><br />
-		<a href="#mah">Merry & Happy 快樂和快樂 2017</a><br />
-		<br />
+	<div id="popup-overlay">
+		<div id="program">
+			<button id="closePopup" onclick="closePopup()">&times;</button>
+			<p style="font-size:20px;"><b>節目單</b></p>
+			<p style="font-size:14px">快速移動到下列歌曲直接聽音樂！</p>
+			<a href="#dth" onclick="closePopup()">Deck the Halls 裝飾大廳 1862</a><br />
+			<a href="#ww" onclick="closePopup()">Winter Wonderland 冬季仙境 1934</a><br />
+			<a href="#wc" onclick="closePopup()">White Christmas 白色聖誕 1942</a><br />
+			<a href="#lis" onclick="closePopup()">Let It Snow 下雪吧 1945</a><br />
+			<a href="#hcsc" onclick="closePopup()">Here Comes Santa Claus 聖誕老公公來了 1947</a><br />
+			<a href="#sr" onclick="closePopup()">Sleigh Ride 雪橇行 1948</a><br />
+			<a href="#jbr" onclick="closePopup()">Jingle Bell Rock 鈴聲響 1957</a><br />
+			<a href="#ratct" onclick="closePopup()">Rockin' Around the Christmas Tree 圍著聖誕樹一起搖滾 1958</a><br />
+			<a href="#itmwtoty" onclick="closePopup()">It's the Most Wonderful Time of the Year 這是一年中最美妙的時光 1963</a><br />
+			<a href="#ahjc" onclick="closePopup()">A Holly Jolly Christmas 一個冬青快樂的聖誕節 1964</a><br />
+			<a href="#fn" onclick="closePopup()">Feliz Navidad 聖誕快樂 1970</a><br />
+			<a href="#stm" onclick="closePopup()">Santa Tell Me 聖誕好公公告訴我 2014</a><br />
+			<a href="#mah" onclick="closePopup()">Merry & Happy 快樂和快樂 2017</a><br />
+			<br />
+		</div>
 	</div>
 
 	<br /><br />
@@ -286,7 +289,7 @@
 		<h3>萬分感謝您的捧場！<br />
 			想回到節目單聆聽指定曲目，<a href="#program">點我</a>！<br />
 			想要複製網址來分享，<button id="copylink" onclick="copyToClipboard()">點我</button>！<br />
-			想要撥放下方的所有鋼琴音樂，<button  id="listenall" onclick="listenAllFunction()">點我</button>！
+			想要撥放下方的所有鋼琴音樂，<button  id="listenall" >點我</button>！
 		</h3>
 	</div>
 
@@ -301,7 +304,7 @@
 		</audio>
 	</p>
 	<p style="font-size:18px;">
-		<a href="./xmas-all-2021.m4a" download="piano-christmas-songs">下載影音檔，我要隨時聽！</a>
+		<a href="./xmas-all-2021.m4a" download="piano-christmas-songs">點我下載影音檔，我要隨時聽！</a>
 	</p>
 
 	<br /><br />
