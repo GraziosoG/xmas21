@@ -8,17 +8,18 @@ Thee are thirteen songs in total, and you can listen to them all for **20 minute
 
 ## Color Palette Description
 
-**#B4635E (Muted Terracotta/Faded Brick Red)**
+**#B4635E (Muted Terracotta/Faded Brick Red)** ![#B4635E](https://placehold.co/15x15/B4635E/B4635E.png)
 
-This color is warm, slightly desaturated red with brown and orange undertones. It is a warm, earthy tone that is not overly bright, having a somewhat dusty or muted quality. This warm, earthy red provides a subtle nod to the traditional Christmas red without being overwhelming. 
+This color is warm, slightly desaturated red with brown and orange undertones. It is a **_warm, earthy tone_** that is not overly bright, having a somewhat dusty or muted quality and provides a subtle nod to the traditional Christmas red without being overwhelming. 
 
-**#727159 (Muted Olive Green/Moss)**
+**#727159 (Muted Olive Green/Moss)** ![#727159](https://placehold.co/15x15/727159/727159.png)
 
-This is a neutral, desaturated green with strong yellow and gray undertones, evoking evergreen trees and foliage in a sophisticated, grounded manner. This hue brings feelings of stability, nature, and peace. It has an earthy, muted quality that suggests a sense of calm and balance. 
+This is a neutral, desaturated green with strong yellow and gray undertones, evoking evergreen trees and foliage in a sophisticated, grounded manner. This hue brings feelings of **_stability, nature, and peace_**. It has an earthy, muted quality that suggests a sense of **_calm and balance_**. 
 
-**#E6DBCA (Soft Beige/Pale Sand)**
+**#E6DBCA (Soft Beige/Pale Sand)** ![#E6DBCA](https://placehold.co/15x15/E6DBCA/E6DBCA.png)
 
-This light neutral acts as a warm, neutral, inviting base color, softening the deeper tones and providing a sense of calm. It is often seen as a gentle, calming color associated with warmth, optimism, and creativity without being overwhelming. It has an ashy, dusty quality that gives it a soft, delicate feel.
+This light neutral acts as a warm, neutral, inviting base color, softening the deeper tones and providing a sense of calm. It is often seen as a gentle, calming color associated with **_warmth, optimism, and creativity_** without being overwhelming. It has an ashy, dusty quality that gives it a soft, delicate feel. 
+
 
 <img src="media/project-screenshot.png" alt="Project screenshot"/>
 
