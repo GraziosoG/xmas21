@@ -58,6 +58,7 @@ body {
     margin-top: 30px;
     font-size: 20px;
     font-weight: bold;
+    margin: auto;
 }
 
 @media all and (max-width: 767px) {
@@ -128,7 +129,7 @@ h3, p {
     cursor: pointer;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 991px) {
     #program {
       width: 90%; /* Overrides the desktop width on mobile */
     }
@@ -146,7 +147,7 @@ a {
     border-radius: 50px;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 991px) {
     .songs {
       width: 80%; /* Overrides the desktop width on mobile */
     }
